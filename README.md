@@ -6,6 +6,10 @@ Test Rules for an Ansible Role.
 
 ## Changelog
 
+### 0.2
+
+* Remove trailing spaces
+
 ### 0.1
 
 * First test version
