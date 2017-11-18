@@ -6,6 +6,10 @@ Test Rules for an Ansible Role.
 
 ## Changelog
 
+### 0.1
+
+* First test version
+
 ## Author
 
 * [Simon Bärlocher](https://sbaerlocher.ch)
