@@ -22,7 +22,7 @@ Use ansible-lint with the options ``-R`` and ``-r <directory>``. E.g.
 
 ### yaml-lint
 
-Use yaml-lint with the options ``-c tests/<directory>/yamllint.yml`` E.g.
+Use yaml-lint with the options ``-c <directory>/yamllint.yml`` E.g.
 
 ```Bash
   ansible-lint -R -r ./yaml-lint/yamllint.yaml skeleton
