@@ -1,0 +1,23 @@
+---
+language: python
+python: "2.7"
+
+services:
+  - docker
+
+install:
+  # Build ansible-lint container
+  - docker build -t ansible-lint .
+
+  # Run ansible-lint container
+  - docker run -d --name ansible-lint ansible-lint
+
+script:
+  # Check run ansible-lintk
+  - docker ps | grep -q ansible-lint
+
+notifications:
+  webhooks: https://galaxy.ansible.com/api/v1/notifications/
+  email:
+    on_success: never
+    on_failure: always
