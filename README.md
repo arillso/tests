@@ -31,6 +31,10 @@ Use yaml-lint with the options ``-c <directory>/yamllint.yml`` E.g.
 
 ## Changelog
 
+### 0.3
+
+* add docker support
+
 ### 0.2
 
 * Remove trailing spaces
