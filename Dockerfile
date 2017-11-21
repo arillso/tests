@@ -9,6 +9,7 @@ RUN apk add --update \
     libffi-dev \
     musl-dev \
     make \
+    git \
     && rm -rf /var/cache/apk/*
 
 # Install ansible
